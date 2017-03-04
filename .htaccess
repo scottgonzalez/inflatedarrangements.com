@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^checkout($|/) - [L]
+RewriteRule ^static($|/) - [L]
+RewriteRule ^(.*)$ http://www.facebook.com/inflatedarrangements [R=307,NC,L]

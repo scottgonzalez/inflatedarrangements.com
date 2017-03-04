@@ -1,0 +1,35 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-size: 20px;
+  background: url(/static/images/gradient.jpg) bottom right no-repeat;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 img {
+  width: 100%;
+  max-width: 300px;
+}
+
+a,
+a:link {
+  color: #23408f;
+}
+
+a:visited {
+  color: #a37fa2;
+}
+
+a:hover,
+a:active {
+  color: #479b45;
+}
